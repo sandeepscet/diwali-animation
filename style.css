@@ -1,0 +1,28 @@
+
+#wrapper{
+	width:960px;
+	margin:0px auto;
+	background:#fff;
+	position:relative;
+}
+
+/* setting the position of first canvas and keep it below the 'Doodle' canvas */
+#Firework{
+	position:absolute;
+	z-index:0;
+}
+
+/* setting the position of second canvas and keep it above the 'Firework' canvas  */
+#Doodle{
+	position:absolute;
+	z-index:1;
+}
+
+/* styling the div containing text */
+/* make its position absolute so that it will not hide behind the canvas */
+#content{
+	width:960px;
+	clear:both;
+	margin:500px 0px 10px 0px;
+	position:absolute; 
+}
